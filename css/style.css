@@ -1,0 +1,17 @@
+/*style*/
+
+/************************************************************
+Grid 740px 12 Columnas
+*************************************************************/
+@media only screen and (max-width: 960px) {
+
+}
+
+/* Mobile */
+@media handheld, only screen and (max-width: 740px) {
+
+}
+
+@media handheld, only screen and (max-width: 420px) {
+
+}
