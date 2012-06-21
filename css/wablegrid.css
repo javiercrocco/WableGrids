@@ -47,7 +47,6 @@ Grid 740px 12 Columnas
 	body {
 	font-size: 0.8em;
 	line-height: 1.5em;
-	background: green;
 	}
 	.row{width:740px; margin:0 auto;}
 
@@ -69,7 +68,7 @@ Grid 740px 12 Columnas
 
 @media handheld, only screen and (max-width: 740px) {
 
-	body {font-size: 16px;-webkit-text-size-adjust: none;background: orange;}
+	body {font-size: 16px;-webkit-text-size-adjust: none;}
 	.row, body, .container {
 	width: 100%;
 	min-width: 0;
@@ -89,7 +88,7 @@ Grid 740px 12 Columnas
 }
 
 @media handheld, only screen and (max-width: 420px) {
-	body {font-size: 16px;-webkit-text-size-adjust: none;background: red;}
+	body {font-size: 16px;-webkit-text-size-adjust: none;}
 	.container{width:90%; margin:0 5%;}
 }
 
