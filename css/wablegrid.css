@@ -1,6 +1,6 @@
 /* CSS Resets */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
-
+body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 img, object, embed {max-width: 100%;}
 img {height: auto;}
 
@@ -35,6 +35,30 @@ overflow: hidden;
 .container .g11{width: 860px;}
 .container .g12{width: 940px;}
 
+.container .prefix_1{padding-left: 80px;}
+.container .prefix_2{padding-left: 160px;}
+.container .prefix_3{padding-left: 240px;}
+.container .prefix_4{padding-left: 320px;}
+.container .prefix_5{padding-left: 400px;}
+.container .prefix_6{padding-left: 480px;}
+.container .prefix_7{padding-left: 560px;}
+.container .prefix_8{padding-left: 640px;}
+.container .prefix_9{padding-left: 720px;}
+.container .prefix_10{padding-left: 800px;}
+.container .prefix_11{padding-left: 880px;}
+
+.container .suffix_1{padding-right: 80px;}
+.container .suffix_2{padding-right: 160px;}
+.container .suffix_3{padding-right: 240px;}
+.container .suffix_4{padding-right: 320px;}
+.container .suffix_5{padding-right: 400px;}
+.container .suffix_6{padding-right: 480px;}
+.container .suffix_7{padding-right: 560px;}
+.container .suffix_8{padding-right: 640px;}
+.container .suffix_9{padding-right: 720px;}
+.container .suffix_10{padding-right: 800px;}
+.container .suffix_11{padding-right: 880px;}
+
 .alpha{margin-left: 0;}
 .omega{margin-right: 0;}
 
@@ -42,13 +66,13 @@ overflow: hidden;
 Grid 740px 12 Columnas
 *************************************************************/
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 980px) {
 
 	body {
 	font-size: 0.8em;
 	line-height: 1.5em;
 	}
-	.row{width:740px; margin:0 auto;}
+	.row{width:760px; margin:0 auto;}
 
 	.container .g1{width: 40px;}
 	.container .g2{width: 100px;}
@@ -61,12 +85,36 @@ Grid 740px 12 Columnas
 	.container .g9{width: 520px;}
 	.container .g10{width: 580px;}
 	.container .g11{width: 640px;}
-	.container .g12{width: 720px;}
+	.container .g12{width: 700px;}
+
+	.container .prefix_1{padding-left: 60px;}
+	.container .prefix_2{padding-left: 120px;}
+	.container .prefix_3{padding-left: 180px;}
+	.container .prefix_4{padding-left: 240px;}
+	.container .prefix_5{padding-left: 300px;}
+	.container .prefix_6{padding-left: 360px;}
+	.container .prefix_7{padding-left: 420px;}
+	.container .prefix_8{padding-left: 480px;}
+	.container .prefix_9{padding-left: 540px;}
+	.container .prefix_10{padding-left: 600px;}
+	.container .prefix_11{padding-left: 660px;}
+
+	.container .suffix_1{padding-right: 60px;}
+	.container .suffix_2{padding-right: 120px;}
+	.container .suffix_3{padding-right: 180px;}
+	.container .suffix_4{padding-right: 240px;}
+	.container .suffix_5{padding-right: 300px;}
+	.container .suffix_6{padding-right: 360px;}
+	.container .suffix_7{padding-right: 420px;}
+	.container .suffix_8{padding-right: 480px;}
+	.container .suffix_9{padding-right: 540px;}
+	.container .suffix_10{padding-right: 600px;}
+	.container .suffix_11{padding-right: 660px;}
 }
 
 /* Mobile */
 
-@media handheld, only screen and (max-width: 740px) {
+@media handheld, only screen and (max-width: 768px) {
 
 	body {font-size: 16px;-webkit-text-size-adjust: none;}
 	.row, body, .container {
@@ -85,9 +133,32 @@ Grid 740px 12 Columnas
 		float: none;
 		margin: 0;
 	}
+
+	.container .prefix_1,
+	.container .prefix_2,
+	.container .prefix_3,
+	.container .prefix_4,
+	.container .prefix_5,
+	.container .prefix_6,
+	.container .prefix_7,
+	.container .prefix_8,
+	.container .prefix_9,
+	.container .prefix_10,
+	.container .prefix_11,
+	.container .suffix_1,
+	.container .suffix_2,
+	.container .suffix_3,
+	.container .suffix_4,
+	.container .suffix_5,
+	.container .suffix_6,
+	.container .suffix_7,
+	.container .suffix_8,
+	.container .suffix_9,
+	.container .suffix_10,
+	.container .suffix_11{padding: 0px;}
 }
 
-@media handheld, only screen and (max-width: 420px) {
+@media handheld, only screen and (max-width: 467px) {
 	body {font-size: 16px;-webkit-text-size-adjust: none;}
 	.container{width:90%; margin:0 5%;}
 }
