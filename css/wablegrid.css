@@ -59,20 +59,6 @@ overflow: hidden;
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11,.g12 {
   display: inline; float: left; margin: 0 10px;}
 
-.push_1, .pull_1,
-.push_2, .pull_2,
-.push_3, .pull_3,
-.push_4, .pull_4,
-.push_5, .pull_5,
-.push_6, .pull_6,
-.push_7, .pull_7,
-.push_8, .pull_8,
-.push_9, .pull_9,
-.push_10, .pull_10,
-.push_11, .pull_11 {
-  position: relative;
-}
-
 .container .g1{width: 60px;}
 .container .g2{width: 140px;}
 .container .g3{width: 220px;}
