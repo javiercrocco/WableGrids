@@ -49,12 +49,8 @@ img {height: auto;}
 /************************************************************
 Standard 960px 12 Columnas
 *************************************************************/
-.row, .container {
-width: 100%;
-width: 960px;
-margin: 0 auto;
-overflow: hidden;
-}
+.container{width: 960px; margin: 0 auto; overflow: hidden;}
+.row{width: 100%;}
 
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11,.g12 {
   display: inline; float: left; margin: 0 10px;}
@@ -102,14 +98,15 @@ overflow: hidden;
 /************************************************************
 Grid 720px 12 Columnas
 *************************************************************/
-
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 768px) and (max-width: 959px){
 
 	body {
 	font-size: 0.8em;
 	line-height: 1.5em;
 	}
-	.row, .container{width:720px; margin:0 auto;}
+
+	.container{width:720px; margin:0 auto;}
+	.row{width:100%;}
 
 	.container .g1{width: 40px;}
 	.container .g2{width: 100px;}
@@ -151,19 +148,12 @@ Grid 720px 12 Columnas
 
 /* Mobile */
 
-@media handheld, only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
-	body {font-size: 14px;-webkit-text-size-adjust: none;}
-	.row, body, .container {
-	width: 100%;
-	min-width: 0;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	}
+	body {font-size: 14px;-webkit-text-size-adjust: none; width: 100%;}
 
-	.container{width:94%; margin:0 3%;}
+	.container{width:auto; max-width:440px; margin:0 auto; padding: 0 20px;}
+	.row{width:100%;}
 	
 	.row .g1, .row .g2, .row .g3, .row .g4, .row .g5, .row .g6, .row .g7, .row .g8, .row .g9,
 	.row .g10, .row .g11, .row .g12 {
@@ -193,11 +183,6 @@ Grid 720px 12 Columnas
 	.container .suffix_9,
 	.container .suffix_10,
 	.container .suffix_11{padding: 0px;}
-}
-
-@media handheld, only screen and (max-width: 479px) {
-	body {font-size:  14px;-webkit-text-size-adjust: none;}
-	.container{width:90%; margin:0 5%;}
 }
 
 /*******************
