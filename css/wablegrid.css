@@ -152,7 +152,7 @@ Grid 720px 12 Columnas
 
 	body {font-size: 14px;-webkit-text-size-adjust: none; width: 100%;}
 
-	.container{width:auto; max-width:440px; margin:0 auto; padding: 0 20px;}
+	.container{width:auto; max-width:480px; margin:0 auto; padding: 0 20px;}
 	.row{width:100%;}
 	
 	.row .g1, .row .g2, .row .g3, .row .g4, .row .g5, .row .g6, .row .g7, .row .g8, .row .g9,
