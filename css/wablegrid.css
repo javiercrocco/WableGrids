@@ -98,7 +98,7 @@ Standard 960px 12 Columnas
 /************************************************************
 Grid 720px 12 Columnas
 *************************************************************/
-@media only screen and (min-width: 768px) and (max-width: 959px){
+@media only screen and (max-width: 959px){
 
 	body {
 	font-size: 0.8em;
@@ -148,7 +148,7 @@ Grid 720px 12 Columnas
 
 /* Mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 750px) {
 
 	body {font-size: 14px;-webkit-text-size-adjust: none; width: 100%;}
 
