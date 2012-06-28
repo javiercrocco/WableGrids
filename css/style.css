@@ -26,12 +26,12 @@ h6 { font-size: 14px; line-height: 21px; }
 }
 
 /* Para  la mayoria de las tablets */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 751px) and (max-width: 959px) {
 
 }
 
 /* Todos los tamaños de los dispositivos móviles, tablet y navegador menor a 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 750px) {
 
 }
 
