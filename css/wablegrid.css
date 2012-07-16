@@ -53,7 +53,7 @@ Standard 960px 12 Columnas
 .row{width: 100%;}
 
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11,.g12 {
-  display: inline; float: left; margin: 0 10px;}
+  display: inline; float: left; padding: 0 10px;}
 
 .container .g1{width: 60px;}
 .container .g2{width: 140px;}
@@ -152,13 +152,16 @@ Grid 720px 12 Columnas
 
 	body {font-size: 14px;-webkit-text-size-adjust: none; width: 100%;}
 
-	.container{width:auto; max-width:480px; margin:0 auto; padding: 0 20px;}
+	.container{width:auto; max-width:480px; margin:0 auto; padding: 0;}
 	.row{width:100%;}
 	
 	.row .g1, .row .g2, .row .g3, .row .g4, .row .g5, .row .g6, .row .g7, .row .g8, .row .g9,
 	.row .g10, .row .g11, .row .g12 {
 		float: none;
 		margin: 0;
+		display:block;
+		padding:0 2%;
+		width:96%;
 	}
 
 	.container .prefix_1,
