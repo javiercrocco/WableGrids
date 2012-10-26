@@ -1,7 +1,7 @@
 /*Estilos generales*/
 
 	/* Eliminar estos estilos de ejemplo.*/	
-	.head{font-size: 14px;margin: 20px 0;color: #444;}
+	.head{font-size: 14px;margin: 20px 0;line-height: 18px; color: #444;}
 	.ejemplo p{
 	color: #444;
 	line-height: 30px;
